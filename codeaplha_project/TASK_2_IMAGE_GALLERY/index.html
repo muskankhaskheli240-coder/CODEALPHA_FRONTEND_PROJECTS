@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Responsive Image Gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <h1 class="title">Modern Responsive Image Gallery</h1>
+
+    <div class="filters">
+  <button class="active" data-filter="all">All</button>
+  <button data-filter="nature">Nature</button>
+  <button data-filter="city">City</button>
+  <button data-filter="tech">Technology</button>
+  <button data-filter="animals">Animals</button>
+</div>
+
+
+    <div class="gallery">
+
+  <!--NATURE -->
+  <img src="https://picsum.photos/id/1015/800/600" class="nature">
+  <img src="https://picsum.photos/id/1016/800/600" class="nature">
+  <img src="https://picsum.photos/id/1022/800/600" class="nature">
+  <img src="https://picsum.photos/id/1039/800/600" class="nature">
+  <img src="https://picsum.photos/id/1056/800/600" class="nature">
+
+  <!-- CITY -->
+  <img src="https://picsum.photos/id/1011/800/600" class="city">
+  <img src="https://picsum.photos/id/1020/800/600" class="city">
+  <img src="https://picsum.photos/id/1031/800/600" class="city">
+  <img src="https://picsum.photos/id/1043/800/600" class="city">
+  <img src="https://picsum.photos/id/1066/800/600" class="city">
+
+  <!--TECHNOLOGY -->
+  <img src="https://picsum.photos/id/180/800/600" class="tech">
+  <img src="https://picsum.photos/id/201/800/600" class="tech">
+  <img src="https://picsum.photos/id/250/800/600" class="tech">
+  <img src="https://picsum.photos/id/370/800/600" class="tech">
+  <img src="https://picsum.photos/id/433/800/600" class="tech">
+
+  <!-- ANIMALS -->
+  <img src="https://picsum.photos/id/237/800/600" class="animals">
+  <img src="https://picsum.photos/id/219/800/600" class="animals">
+  <img src="https://picsum.photos/id/593/800/600" class="animals">
+  <img src="https://picsum.photos/id/659/800/600" class="animals">
+  <img src="https://picsum.photos/id/718/800/600" class="animals">
+
+</div>
+
+
+    <!-- LIGHTBOX -->
+    <div id="lightbox">
+        <div class="lightbox-box">
+            <span class="nav prev">&#10094;</span>
+            <img id="lightbox-img">
+            <span class="nav next">&#10095;</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
